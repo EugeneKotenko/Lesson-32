@@ -1,0 +1,84 @@
+.root {
+  font-family: Arial;
+}
+
+header {
+  background-image: url("/img/header-backgraund.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.header-content {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header-content h1 {
+  font-size: 24px;
+}
+
+.my-orders-button {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border: solid 1px #9f32bb;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.my-orders-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.category {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px;
+}
+
+#order-form {
+  max-width: 400px;
+  align-items: center;
+  position: relative;
+  right: 20px;
+}
+
+.buy-button,
+button {
+  background: rgba(219, 198, 198, 0.5);
+  border: solid 1px #9f32bb;
+  border-radius: 5px;
+  color: #000000;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.form {
+  border: solid 1px #3a1842;
+  position: relative;
+  margin: 5px 0px;
+  width: 350px;
+  border-radius: 5px;
+  resize: none;
+  padding: 5px 5px;
+  font-family: Arial;
+}
