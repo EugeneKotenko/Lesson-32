@@ -3,7 +3,7 @@
 }
 
 header {
-  background-image: url("/img/backgraund.png");
+  background-image: url("backgraund.png");
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
